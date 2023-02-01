@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Piggyvest replica designed by oluwafemi showing PiggyVest a very secure online savings platform that makes saving possible by combining discipline plus flexibility to make you grow your savings.">
+    <meta name="theme-color" content="#fff">
+    <meta name="keywords"
+        content="piggyvest,piggybank online savings,savings account,testimonials,intrest rate,secure savings,piggyvest Nigeria">
+    <!--ION ICONS-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--Font Family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/piggyvest head icon.png">
+    <script defer src="./src/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Piggy vest</title>
+</head>
+
+<body class="font-sans text-body overflow-x-hidden">
+    <nav class="sticky top-0 bg-white z-10 md:py-5 py-8 px-8 lg:px-4">
+        <div class="flex items-center justify-between max-w-6xl w-[100%] mx-auto">
+            <!--Nav logo-->
+            <img src="images/piggyvest-logo.svg" alt="Logo" class="w-40 z-40">
+            <!--Nav Links-->
+            <div class="hidden lg:flex">
+                <ul class="flex justify-between space-x-8">
+                    <li>
+                        <a class="text-lg text-darkBlue font-semibold" href="#saving">Save</a>
+                    </li>
+                    <li>
+                        <a class="text-lg text-darkBlue font-semibold" href="#">Invest</a>
+                    </li>
+                    <li>
+                        <a class="text-lg text-darkBlue font-semibold" href="#">Stories</a>
+                    </li>
+                    <li>
+                        <a class="text-lg text-darkBlue font-semibold" href="#">FAQs</a>
+                    </li>
+                    <li>
+                        <a class="text-lg text-darkBlue font-semibold" href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a class="text-lg text-darkBlue font-semibold" href="#">E-book</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Nav Buttons-->
+            <div class="hidden lg:flex items-center justify-center space-x-2">
+                <a class="text-darkBlue font-semibold px-8 py-3 border border-blue-300 duration-500 rounded-2xl hover:border-blue-500"
+                    href="sign.html">Sign In
+                </a>
+                <a class="text-white bg-darkBlue font-semibold px-8 py-4 border border-black duration-500 rounded-2xl hover:bg-blue-500"
+                    href="sign in account.html">Create Free Account
+
+                </a>
+            </div>
+
+            <button id="menu-btn" class="block hamburger lg:hidden focus:outline-none z-40" type="button">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+        <!--Menu btn-->
+        <div id="menu" class="hidden bg-white absolute top-0 bottom-0 left-0 min-h-screen w-full">
+            <div class="flex flex-col justify-center items-center space-y-10 text-black px-6 pt-24">
+                <a href="#saving" id="nav-link" class="text-lg font-normal">Save</a>
+                <a href="#oppurtunities" id="nav-link" class="text-lg font-normal">Invest</a>
+                <a href="#testimonial" id="nav-link" class="text-lg font-normal">Stories</a>
+                <a href="#" id="nav-link" class="text-lg font-normal">FAQs</a>
+                <a href="#" id="nav-link" class="text-lg font-normal">Blog</a>
+                <a href="#footer" id="nav-link" class="text-lg font-normal">E-book</a>
+                <a href="sign.html"
+                    class="text-lg font-normal border-2 hover:border-blue-400 duration-500 w-full text-center rounded-xl py-3">Sign
+                    in</a>
+                <a href="sign in account.html"
+                    class="text-lg font-normal border-2 bg-darkBlue hover:bg-blue-500 duration-500 w-full text-center rounded-xl py-3 text-white">Create
+                    free Account</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!--HERO SECTION-->
+        <section class="section" id="hero">
+            <div
+                class="max-w-6xl mx-auto flex flex-col py-24 lg:py-16 px-4 lg:px-0 lg:flex-row space-y-20 lg:space-y-0">
+                <div
+                    class="flex flex-col space-y-8 items-center justify-center lg:items-start md:px-3 lg:py-8 max-w-lg mx-auto">
+                    <div>
+                        <h2
+                            class="leading-12 text-6xl lg:text-7xl text-center lg:text-start font-semibold text-darkBlue tracking-tight lg:tracking-normal mb-4">
+                            The Better Way to Save & Invest.
+                        </h2>
+                        <p class="text-center lg:text-start mb-8 leading-6 text-lg">PiggyVest helps over 4 million
+                            customers
+                            achieve
+                            their
+                            financial goals by
+                            helping them save and
+                            invest with ease.</p>
+                        <div class="flex justify-center lg:justify-start">
+                            <a class="text-white bg-darkBlue font-semibold px-8 py-4  border border-black duration-500 rounded-2xl hover:bg-blue-500"
+                                href="sign in account.html">Create Free Account
+
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex space-x-4">
+                        <div class="shadow-md px-2 py-2 rounded-md">
+                            <a href="#" class="flex items-center justify-center space-x-2">
+                                <img class="w-4" src="images/apple-seeklogo.com.svg" alt="">
+                                <p>Get On Apple</p>
+                            </a>
+                        </div>
+                        <div class="shadow-md px-2 py-2 rounded-md">
+                            <a href="#" class="flex items-center justify-center space-x-2">
+                                <img class="w-4" src="images/apple-seeklogo.com.svg" alt="">
+                                <p>Get On Android</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="w-full flex items-center justify-center pl-12 md:justify-center -z-10">
+                    <div class="border-4 border-gray-900 rounded-2xl py-10 relative z-10">
+                        <img src="images/piggyvest hero imb.png" alt="hero-image" class="transform -translate-x-12">
+                        <img src="images/card1.png" alt="Rent Card" class="w-4/6 absolute top-20 -left-24">
+                        <img src="images/card2.png" alt="Invest Card" class="w-4/6 absolute bottom-20 right-0">
+                        <div class="bg-pink-200 px-10 rounded-full w-20 h-20 opacity-50 absolute top-0 right-0"></div>
+                        <div class="bg-blue-200 opacity-70 w-10 h-10 absolute -left-16 top-[90%] rounded-full"></div>
+                        <div class="bg-red-200 opacity-70 w-12 h-12 absolute -left-16 top-[50%] transform rotate-45">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Security Section-->
+        <section class="section" id="security">
+            <div class="px-6 py-24 pb-36 lg:py-28 mx-auto max-w-4xl lg:mr-28">
+                <div
+                    class="flex flex-col lg:flex-row justify-center items-center space-y-12 lg:space-x-12 lg:space-y-0">
+                    <!--Security image-->
+                    <img src="images/security piggyvest.png" alt="" class="w-24">
+                    <div class="flex flex-col items-center justify-center lg:items-start">
+                        <h3 class="text-center text-3xl font-bold mb-3">Your security is our priority</h3>
+                        <p class="text-center lg:text-start">PiggyVest uses the highest level of Internet Security
+                            and
+                            it is secured by 256 bits SSL
+                            security encryption to ensure that your information is comepletely protected from fraud.</p>
+                        <a class="text-blue-800 flex font-semibold mt-5" href="#">Learn more<svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="saving">
+            <div
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-x-8 max-w-3xl lg:max-w-full mx-auto px-6 lg:px-20">
+                <div
+                    class="flex flex-col items-center justify-center px-2 md:col-span-2 lg:col-auto md:mb-9 max-w-xl mx-auto lg:items-start">
+                    <h3 class="text-center text-4xl mb-3 font-bold lg:text-start">4 ways to build your savings</h3>
+                    <p class="mb-8 text-center lg:text-start text-lg">Earn 5%-15% when you save with any of these
+                        PiggyVest
+                        plans.</p>
+                    <a href="#" class="bg-darkBlue text-white hover:bg-blue-700 duration-500 px-5 py-3 rounded-lg">Start
+                        Saving</a>
+                </div>
+
+                <div class="target-comp">
+                    <img src="images/piggy.png" alt="" class="w-16 mb-6">
+                    <h5 class="text-2xl font-semibold mb-4 lg:text-start">Automated Savings</h5>
+                    <p class="mb-16 text-center lg:text-start">Build a dedicated savings faster on your terms
+                        automatically or
+                        manually</p>
+                    <a href="#" class="flex items-center space-x-1 lg:items-start hover:ml-10  duration-500"><svg
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-8 h-8 p-1 bg-blue-300 text-blue-700 rounded-full">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                        </svg>
+                        <p>Piggybank</p>
+                    </a>
+                </div>
+                <div class="target-comp">
+                    <img src="images/safelock piggyvest.png" alt="" class="w-16 mb-6">
+                    <h5 class="text-2xl font-semibold mb-4">Locked Savings</h5>
+                    <p class="mb-16 text-center lg:text-start">Lock money away for a fixed duration with no access to it
+                        until
+                        maturity.it's like having a custom fixed deposit</p>
+                    <a href="#" class="flex items-center space-x-1 hover:ml-10  duration-500"><svg
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-8 h-8 p-1 bg-blue-300 text-blue-700 rounded-full">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                        </svg>
+                        <p>Safelock</p>
+                    </a>
+                </div>
+                <div class="target-comp lg:col-start-2">
+                    <img src="images/target piggyvest.png" alt="" class="w-16 mb-6">
+                    <h5 class="text-2xl font-semibold mb-4">Goal Savings</h5>
+                    <p class="mb-16 text-center lg:text-start">Reach all your savings goals faster Save towards multiple
+                        goals on your
+                        own or with a group</p>
+                    <a href="#" class="flex items-center space-x-1 hover:ml-10  duration-500"><svg
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-8 h-8 p-1 bg-green-300 text-green-700 rounded-full">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                        </svg>
+                        <p>Target Savings</p>
+                    </a>
+                </div>
+                <div class="target-comp">
+                    <img src="images/flex piggyvest.png" alt="" class="w-16 mb-6">
+                    <h5 class="text-2xl font-semibold mb-4">Flexible Savings</h5>
+                    <p class="mb-16 text-center lg:text-start">Save,transfer,withdraw,manage and organise your money
+                        for free at any
+                        time</p>
+                    <a href="#" class="flex items-center space-x-1 hover:ml-10  duration-500"><svg
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-8 h-8 p-1 bg-pink-300 text-pink-700 rounded-full">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                        </svg>
+                        <p>Flex Naira</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="oppurtunities">
+            <div
+                class="flex flex-col lg:flex-row items-center justify-center max-w-3xl mx-auto py-32 lg:space-x-16 space-y-12">
+                <div>
+                    <img src="images/piggyvest promo img.png" alt="promo image" class="max-w-[260px] mx-auto">
+                    <div class="bg-purple-100 rounded-full w-64"></div>
+                </div>
+                <div>
+                    <p class="bg-purple-100 text-purple-700 rounded-2xl p-2 font-semibold w-40 mb-8 mx-auto lg:mx-0">
+                        Up To 25%
+                        Returns</p>
+                    <h3 class="text-4xl font-semibold mb-8 text-center lg:text-start">Access Investment Oppurtunities
+                    </h3>
+                    <p class="mb-8 text-center lg:text-start px-3">Invest securely and confidently on the go. Grow your
+                        money
+                        confidently by investing
+                        in pre-vetted
+                        investment opportunities.</p>
+                    <a href="#" class="flex text-purple-700 font-semibold justify-center lg:justify-start">Learn more
+                        about
+                        investment<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </svg></a>
+                </div>
+            </div>
+        </section>
+
+        <!--Best Savers-->
+        <section id="family">
+            <div class="flex flex-col lg:flex-row">
+                <div class="text-white bg-blue-700 py-24 sm:px-24 px-4 lg:pl-2 w-full">
+                    <div class="max-w-md mx-auto">
+                        <h3 class="text-center text-5xl font-bold mb-6 lg:text-start">Meet the saver of the month</h3>
+                        <p class="lg:text-start text-center text-lg mb-16">Every month, we shine a spotlight on one
+                            saver, asking them
+                            questions
+                            about
+                            their savings culture
+                            and how the product is specifically helping them shape how they spend and save for future
+                            responsibilities.</p>
+                        <a href="#"
+                            class="flex space-x-2 justify-center items-center lg:items-start lg:justify-start hover:animate-bounce">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-8 h-8 text-blue-600 bg-white p-2 rounded-full">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                            </svg>
+                            <p class="font-semibold text-lg">Meet The Oyetades</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-oyetolas w-full bg-center bg-cover bg-no-repeat sm:h-[400px] lg:h-[550px]"></div>
+            </div>
+        </section>
+        <!--Testimonial section-->
+        <section class="section" id="testimonial">
+            <div
+                class="flex flex-col lg:flex-row-reverse sm:py-24 py-32 px-4 lg:mx-20 space-y-20 lg:space-y-0 lg:gap-x-16  max-w-5xl">
+                <div class="">
+                    <h3 class="text-4xl font-semibold text-center lg:text-start mb-4">4 Million + customers</h3>
+                    <p class="text-center lg:text-start mb-10">Since launching in 2016, over 4,000,000 people have used
+                        PiggyVest to manage their money better,
+                        avoid over-spending and be more accountable.</p>
+                    <div class="flex items-center justify-center lg:justify-start">
+                        <a class="text-white bg-darkBlue font-semibold px-8 py-4 border border-black duration-500 rounded-2xl hover:bg-blue-500"
+                            href="#">Create Free Account
+                        </a>
+                    </div>
+                    <div class="mt-8 flex space-x-4 justify-center lg:justify-start">
+                        <div class="customer-get">
+                            <a href="#" class="flex items-center justify-center space-x-2">
+                                <img class="w-4" src="images/apple-seeklogo.com.svg" alt="">
+                                <p>Get On Apple</p>
+                            </a>
+                        </div>
+                        <div class="customer-get">
+                            <a href="#" class="flex items-center justify-center space-x-2">
+                                <img class="w-4" src="images/apple-seeklogo.com.svg" alt="">
+                                <p>Get On Android</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="max-w-lg flex mx-auto px-5 flex-col mt-10 space-y-6 h-96 overflow-y-scroll">
+
+                    <div class="bg-gray-100 py-6 pt-8 px-4 relative">
+                        <div class="grid grid-cols-[1fr,6fr]">
+                            <img src="images/testimonial/femi (2).jpg" alt="" class="w-10 h-10 rounded-full">
+                            <p class="font-semibold">
+                                Oluwafemi O</p>
+                            <p class="col-start-2 text-xs tracking-wider">My name is Oluwafemi Onadokun and I am here to
+                                testify that
+                                Piggyvest
+                                has helped me a
+                                lot. I had to spread the good news to my friends and tell them about the app and behold
+                                they are also using it 😎 </p>
+                        </div>
+                        <p class="p-2 absolute top-1 right-0.5 text-xs">Friday, 27th of January 2022 by 13:03PM</p>
+                    </div>
+
+                    <div class="bg-gray-100 py-6 pt-8 px-4 relative">
+                        <div class="grid grid-cols-[1fr,6fr]">
+                            <img src="images/testimonial/man_dp1.jpg" alt="" class="w-10 h-10 rounded-full">
+                            <p class="font-semibold">
+                                John David</p>
+                            <p class="col-start-2 text-xs tracking-wider">Whenever money got into my hands, I never knew
+                                how I squandered it so fast without even saving a little. I got to hear about Piggy vest
+                                and it's various services and right now, I am totally enjoying this journey. 😊</p>
+                        </div>
+                        <p class="p-2 absolute top-1 right-0.5 text-xs">Sunday, 29th of January 2022 by 13:40PM</p>
+                    </div>
+                    <div class="hiden bg-gray-100 py-6 pt-8 px-4 relative">
+                        <div class="grid grid-cols-[1fr,6fr]">
+                            <img src="images/testimonial/girl_dp1.jpg" alt="" class="w-10 h-10 rounded-full">
+                            <p class="font-semibold">
+                                Umuoye Daniels</p>
+                            <p class="col-start-2 text-xs tracking-wider">Thanks to piggyvest I've saved enough money to
+                                start up a really large business</p>
+                        </div>
+                        <p class="p-2 absolute top-1 right-0.5 text-xs">Thursday 28th of January 2022 by 19:03PM</p>
+                    </div>
+                    <div class="hiden bg-gray-100 py-4 pt-8 px-4 relative">
+                        <div class="grid grid-cols-[1fr,6fr]">
+                            <img src="images/testimonial/man_dp2.jpg" alt="" class="w-10 h-10 rounded-full">
+                            <p class="font-semibold">
+                                Daniel Abisoye</p>
+                            <p class="col-start-2 text-xs tracking-wider">Piggyvest really helps in proper keeping of
+                                money for the proper needed time.A proper reliable source for save keeping of money</p>
+                        </div>
+                        <p class="p-2 absolute top-1 right-0.5 text-xs">Thursaday, 26th of January 2022 by 13:03PM</p>
+                    </div>
+                    <div class="hiden bg-gray-100 py-6 pt-8 px-4 relative">
+                        <div class="grid grid-cols-[1fr,6fr]">
+                            <img src="images/testimonial/gir_dp3.jpg" alt="" class="w-10 h-10 rounded-full">
+                            <p class="font-semibold">
+                                Chukuma Abigail</p>
+                            <p class="col-start-2 text-xs tracking-wider">
+                                I just joined tho and i believe piggybank wont dissapoint me 😊♥
+                            </p>
+                        </div>
+                        <p class="p-2 absolute top-1 right-0.5 text-xs">Sunday, 29th of January 2022 by 13:03PM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Featured In Section-->
+        <section class="section" id="featured">
+            <div class="bg-gray-100 sm:px-32 px-16 py-16">
+                <div class="flex flex-col lg:flex-row lg:justify-between max-w-4xl space-y-10 md:space-y-0">
+                    <h4 class="text-3xl text-center lg:text-4xl font-bold md:mb-10 lg:mb-0">As featured In</h4>
+                    <div
+                        class="flex flex-col md:flex-row md:space-x-10 space-y-10 md:space-y-0 items-center justify-center">
+                        <img src="images/logos/business-insider.png" alt="Logo for business-insider"
+                            class="lg:w-24 w-32">
+                        <img src="images/logos/forbes.png" alt="Logo for forbes" class="lg:w-24 w-32">
+                        <img src="images/logos/techcrunch.png" alt="Logo for techcrunch" class="lg:w-24 w-32">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer id="footer">
+        <div class="py-20 lg:pt-24 px-4 lg:px-16">
+            <div class="grid grid-cols-2 gap-y-8 mb-16 md:grid-cols-4 lg:grid-cols-5">
+                <div class="flex space-y-6 flex-col col-span-2 md:col-span-1">
+                    <img src="images/piggyvest-logo.svg" alt="piggyvest-logo" class="w-40">
+                    <img src="images/piggyvest footer img.webp" alt="" class="w-32 shadow-md">
+                </div>
+                <div class="flex flex-col space-y-2">
+                    <p class="footer-head">Products</p>
+                    <a href="#" class="text-sm">Piggybank</a>
+                    <a href="#" class="text-sm">Invest</a>
+                    <a href="#" class="text-sm">Safelock</a>
+                    <a href="#" class="text-sm">Target Savings</a>
+                    <a href="#" class="text-sm">Flex Naira</a>
+                </div>
+                <div class="flex flex-col space-y-2">
+                    <p class="footer-head">Company</p>
+                    <a href="#" class="text-sm">About</a>
+                    <a href="#" class="text-sm">FAQs</a>
+                    <a href="#" class="text-sm">Blog</a>
+                </div>
+                <div class="flex flex-col space-y-2">
+                    <p class="footer-head">Legal</p>
+                    <a href="#" class="text-sm">Terms</a>
+                    <a href="#" class="text-sm">Privacy</a>
+                    <a href="#" class="text-sm">Security</a>
+                </div>
+                <div class="flex flex-col space-y-2 text-sm col-span-2 lg:col-span-1">
+                    <div class="flex space-x-2">
+                        <!--Facebook-->
+                        <a href="https://web.facebook.com/david.oluwafemi.71465" target="_blank">
+                            <?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"
+                                width="28px" height="28px">
+                                <path
+                                    d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z" />
+                            </svg>
+                        </a>
+                        <!--Twitter-->
+                        <a href="http://twitter.com/Oluwafemi166/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="28px" height="28px">
+                                <path
+                                    d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z" />
+                            </svg>
+                        </a>
+                        <!--Instagram-->
+                        <a href="https://www.linkedin.com/Oluwafemi Onadokun/" target="_blank">
+                            <?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"
+                                width="28px" height="28px">
+                                <path
+                                    d="M25,2C12.318,2,2,12.317,2,25s10.318,23,23,23s23-10.317,23-23S37.682,2,25,2z M18,35h-4V20h4V35z M16,17 c-1.105,0-2-0.895-2-2c0-1.105,0.895-2,2-2s2,0.895,2,2C18,16.105,17.105,17,16,17z M37,35h-4v-5v-2.5c0-1.925-1.575-3.5-3.5-3.5 S26,25.575,26,27.5V35h-4V20h4v1.816C27.168,20.694,28.752,20,30.5,20c3.59,0,6.5,2.91,6.5,6.5V35z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <a href="#">Tesmot house,Abdulrahman Okene close,Victoria island,Lagos,Nigeria</a>
+                    <a href="#">contact@piggyvest.com</a>
+                    <a href="tel:0705 826 6972">+234 705 826 6972</a>
+                </div>
+            </div>
+            <p class="text-sm text-center tracking-widest font-semibold mx-auto max-w-4xl mb-8 px-2">Piggyvest
+                (formerly
+                piggybank.ng) is the
+                leading online
+                savings & investing
+                platform in Nigeria. For over 6 years, our customers have saved and invested billions of Naira that they
+                would normally be tempted to spend.</p>
+            <p class="text-blue-600 font-semibold text-sm text-center">2016 - 2022 Oluwafemi Global Limited - RC
+                0710200517</p>
+        </div>
+    </footer>
+</body>
+
+</html>
