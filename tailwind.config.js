@@ -19,7 +19,16 @@ module.exports = {
       },
       backgroundImage:(theme) =>({
         'oyetolas': "url('../images/piggyvest oyetolas.jpg')"
-      })
+      }),
+      keyframes :{
+        move: {
+          '0%': {transform: 'translateY(0%)'},
+          '100%': {transform: 'translateY(-100%)'}
+        }
+      },
+      animation: {
+        'moving': 'move 68s linear infinite alternate-reverse'
+      }
     },
   },
   plugins: [],

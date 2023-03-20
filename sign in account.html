@@ -64,28 +64,32 @@
                 <h4 class="text-signBlue text-xl text-center font-semibold">Create a Secure Account</h4>
                 <p class="text-center  text-gray-700 mb-10 text-sm">Welcome to the future of Savings & investments</p>
                 <div class="">
-                    <form class="mb-6 flex flex-col space-y-8">
+                    <form id="form" class="mb-6 flex flex-col space-y-8">
                         <div class="flex flex-col space-y-2">
                             <label for="name" class="block text-xs font-semibold">Full Name</label>
-                            <input class="bg-blue-100 focus:outline-none py-3 pl-2 placeholder:text-sm" type="text"
-                                placeholder="Full Name">
+                            <input id="username" class="bg-blue-100 focus:outline-none py-3 pl-2 placeholder:text-sm"
+                                type="text" placeholder="Full Name">
+                            <div class="error1"></div>
                         </div>
                         <div class="flex flex-col space-y-2">
                             <label class="block text-xs font-semibold">Email Address</label>
-                            <input
+                            <input id="email"
                                 class="bg-blue-100 focus:border-none py-3 pl-2 focus:outline-none placeholder:text-sm"
                                 type="email" placeholder="Email Address">
+                            <div class="error2"></div>
                         </div>
                         <div class="flex flex-col space-y-2">
                             <label class="block text-xs font-semibold">Phone Number</label>
-                            <input
+                            <input id="number"
                                 class="bg-blue-100 focus:border-none py-3 pl-2 focus:outline-none placeholder:text-sm"
                                 type="num" placeholder="Phone Number">
+                            <div class="error3"></div>
                         </div>
                         <div class="flex flex-col space-y-2">
                             <label class="block text-xs font-semibold">Password</label>
-                            <input class="bg-blue-100 focus:border-none py-3 pl-2 focus:outline-none" type="password"
-                                name="password" placeholder="Password">
+                            <input id="password" class="bg-blue-100 focus:border-none py-3 pl-2 focus:outline-none"
+                                type="password" name="password" placeholder="Password">
+                            <div class="error4"></div>
                         </div>
                         <div class="flex flex-col space-y-2">
                             <label class="block text-xs font-semibold">Referrer Phone or Promo Code (Optional)</label>
@@ -103,10 +107,14 @@
                                 <option value="Linked in">Linked In</option>
                             </select>
                         </div>
+                        <input id="login"
+                            class="flex items-center justify-center bg-blue-800 hover:bg-blue-500 duration-200 py-2 rounded-xl text-white"
+                            type="submit" value="CREATE ACCOUNT">
                     </form>
-                    <a id="login" href="index.html"
+
+                    <!--<a id="login" href="index.html"
                         class="flex items-center justify-center bg-blue-800 hover:bg-blue-500 duration-200 py-2 rounded-xl text-white">CREATE
-                        ACCOUNT</a>
+                        ACCOUNT</a>-->
                 </div>
             </div>
             <div class="flex flex-col space-y-4 items-center justify-center">
